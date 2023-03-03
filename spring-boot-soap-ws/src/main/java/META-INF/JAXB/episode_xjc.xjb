@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.2 
+Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2023.03.03 às 01:31:25 PM BRT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://io.github.yesminmarie/springbootsoapws/loanEligibility">
+    <schemaBindings map="false">
+      <package name="yesminmarie.github.io.springbootsoapws.loaneligibility"/>
+    </schemaBindings>
+    <bindings scd="tns:CustomerRequest">
+      <class ref="yesminmarie.github.io.springbootsoapws.loaneligibility.CustomerRequest"/>
+    </bindings>
+    <bindings scd="tns:Acknowledgement">
+      <class ref="yesminmarie.github.io.springbootsoapws.loaneligibility.Acknowledgement"/>
+    </bindings>
+  </bindings>
+</bindings>
+
